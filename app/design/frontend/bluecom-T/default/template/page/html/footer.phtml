@@ -1,0 +1,53 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    design
+ * @package     rwd_default
+ * @copyright   Copyright (c) 2006-2016 X.commerce, Inc. and affiliates (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<div class="footer-container">
+    <div class="title-containt">
+        <div class="title-containt-text">
+            <p>Get the latest sneaker releases, subtype exclusives and subscriber-only discounts on the best brands</p>
+        </div>
+    </div><!-- END .title-containt -->
+
+    <div class="footer-menu">
+        <ul>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Shopping help</a></li>
+            <li><a href="#">Shipping FAQ</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms & conditions</a></li>
+        </ul>
+    </div><!-- END .footer-menu -->
+
+    <div class="footer-widgets">
+        <?php echo $this->getChildHtml() ?>
+    </div><!-- END .footer-widgets -->
+
+    <div class="footer-terms">
+        <img src="https://www.subtypestore.com/wp-content/uploads/2015/08/Payment-Icons.png" width="127" height="20" alt="Payment Icons">
+        <address class="copyright"><?php echo $this->getCopyright() ?></address>
+    </div><!-- END .footer-terms -->
+</div>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+
+        <reference name="head">
+            <!--Adding JS Files Styles-->
+            <action method="addItem"><type>skin_js</type><name>js/bluecom-js.js</name><params/></action>
+
+
+            <!--Adding CSS Files Styles-->
+            <action method="addCss"><stylesheet>css/font-awesome.css</stylesheet><params/></action>
+            <action method="addCss"><stylesheet>css/bootstrapcdn.css</stylesheet><params/></action>
+            <action method="addCss"><stylesheet>css/bluecom-style.css</stylesheet><params/></action>
+
+        </reference>
+
+    </default>
+</layout>

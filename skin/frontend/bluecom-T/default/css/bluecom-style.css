@@ -1,0 +1,135 @@
+@font-face {
+    font-family: PT sans;
+    src: url("../fonts/PTC77F.ttf");
+}
+@font-face {
+    font-family: Open Sans Condensed;
+    src: url("../fonts/OpenSans-CondLight.ttf");
+}
+
+/* ============================================ *
+ * HEADER STYLES
+ * ============================================ */
+
+.page-header-top{
+    background: #000;
+}
+/* == Top-Store == */
+div.top-store {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+}
+div.top-store p {
+    font-family: "PT sans", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+div.top-store a {
+    color: #fff;
+}
+
+/* == Top-Nav == */
+div.top-store ul.top-nav {
+    position: absolute;
+    top: 0px;
+    right: 130px;
+    float: right;
+}
+div.top-store ul.top-nav li {
+    float: left;
+    margin: 7px;
+}
+div.top-store ul.top-nav li a {
+    font-family: "PT sans",Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+div.top-store ul.top-nav li a i{
+    font-size: 17px;
+    line-height: 13px;
+}
+
+/* == Skip-Link == */
+
+div.account-cart-wrapper a:focus,
+div.account-cart-wrapper a:focus,
+div.account-cart-wrapper a:hover {
+    color: #fff;
+}
+
+.logo h1 a{
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 33px;
+    line-height: 33px;
+    color: #222;
+    font-weight: bold;
+}
+
+.skip-content {
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    padding: 3px 0 3px 0;
+}
+.search-hover {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: transparent url('../images/search-icon.png') no-repeat center center;
+    background-size: 14px 14px;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    width: 49px;
+    height: 55px;
+}
+
+/* ============================================ *
+ * FOOTER STYLES
+ * ============================================ */
+/*== Style .title-containt==*/
+.title-containt {
+    background: #f2f2f2;
+    padding: 25px 0px;
+}
+
+/*== Style.footer-menu ==*/
+.footer-menu {
+    background: #000;
+    overflow: hidden;
+    margin-bottom: 41px;
+}
+.footer-menu ul {
+    text-align: center;
+}
+.footer-menu ul li {
+    display: inline-block;
+    padding: 4px 0px;
+}
+.footer-menu ul li a {
+    height: 19px;
+    font-family: "PT sans", Arial, sans-serif;
+    font-size: 11px;
+    line-height: 20px;
+    color: #fff;
+    padding: 5px 9px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*== Style .footer-widgets ==*/
+
+
+/*== Style .footer-terms==*/
+.footer-terms {
+    text-align: center;
+}
+
+/*== Style ==*/
+
+
+/*== Style ==*/
